@@ -8,4 +8,9 @@ import { Product } from 'src/app/shared/models/product';
 })
 export class ProductItemComponent {
   @Input() product?: Product
+
+
+  addItemToBasket() {
+    // this.product && this.basketService.addItemToBasket(this.product);
+  }
 }
